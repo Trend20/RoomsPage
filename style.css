@@ -439,17 +439,17 @@ btn {
 /* end of amor-suites styles */
 /* hotel afrikana styles */
 
-.superior {
+.hotelAfrikana {
   position: absolute;
-  top: 450%;
+  top: 930%;
 }
-.superior-container {
+.hotelAfrikana-container {
   display: flex;
   flex-direction: row;
   left: 10%;
 }
 
-.superior-content {
+.hotelAfrikana-content {
   position: relative;
   left: 100px;
   top: 100px;
@@ -461,23 +461,23 @@ btn {
   justify-content: center;
   background: #ffff;
 }
-.superior-content p {
+.hotelAfrikana-content p {
   margin-left: 100px;
   color: #333333;
 }
-.superior-content h1 {
+.hotelAfrikana-content h1 {
   color: #333333;
   font-weight: normal;
   font-size: 60px;
   margin-bottom: 20px;
 }
-.superior-content h3 {
+.hotelAfrikana-content h3 {
   color: var(--main-brown-background);
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 30px;
 }
-.superior-image img {
+.hotelAfrikana-image img {
   margin-right: 100px;
   width: 700px;
   height: 600px;
