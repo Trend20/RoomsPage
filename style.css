@@ -344,8 +344,8 @@ btn {
 }
 .deluxe-content{
   width: 710px;
-  height: 650px;
-  background: #bdbdbd;
+  height: 900px;
+  background: var(--light-background-color);
   display: flex;
   align-items: right;
   justify-content: center;
@@ -391,3 +391,99 @@ btn {
   margin-left: 35px;
 }
 /* end of deluxe styles */
+/* amorSuites styles */
+.amorSuite{
+  position: absolute;
+  top: 810%;
+  display: flex;
+  justify-content: center;
+}
+.amorSuite-img{
+  width: 800px;
+  margin-left: 20px;
+}
+.amorSuite-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  width: 500px;
+}
+.amorSuite-details h1{
+  color: var(--main-brown-background);
+  font-size: 60px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  display: flex;
+  justify-content: start;
+}
+.amorSuite-details p{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  width: 400px;
+  margin-left: 5px;
+}
+.amorSuite-details h3{
+  color: var(--main-brown-background);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+#amorSuite{
+  margin-left: 5px;
+}
+/* end of amor-suites styles */
+/* hotel afrikana styles */
+
+.superior {
+  position: absolute;
+  top: 450%;
+}
+.superior-container {
+  display: flex;
+  flex-direction: row;
+  left: 10%;
+}
+
+.superior-content {
+  position: relative;
+  left: 100px;
+  top: 100px;
+  width: 600px;
+  box-shadow: var(--box-shadow);
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffff;
+}
+.superior-content p {
+  margin-left: 100px;
+  color: #333333;
+}
+.superior-content h1 {
+  color: #333333;
+  font-weight: normal;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.superior-content h3 {
+  color: var(--main-brown-background);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.superior-image img {
+  margin-right: 100px;
+  width: 700px;
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  right: 10%;
+}
+/* end of hotel afrikana */
