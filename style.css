@@ -333,48 +333,61 @@ btn {
   right: 10%;
 }
 /* deluxe styles */
-.deluxe-extra{
+.deluxe{
   position: absolute;
   top: 690%;
   display: flex;
-  justify-content: center;
 }
-.deluxe-details{
+.deluxe-container{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  width: 580px;
-  margin-left: 50px;
 }
-.deluxe-details h1{
+.deluxe-content{
+  width: 710px;
+  height: 650px;
+  background: #bdbdbd;
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.deluxe-content h1, p, h3{
+   margin-left: 100px;
+   width: 400px;
+}
+.deluxe-content h1{
   color: var(--main-brown-background);
   font-size: 60px;
   margin-bottom: 20px;
-  margin-left: 5px;
+  margin-left: 40px;
   display: flex;
   justify-content: start;
 }
-.deluxe-details p{
+.deluxe-content p{
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 130%;
   width: 400px;
-  margin-left: 5px;
+  margin-left: 40px;
 }
-.deluxe-details h3{
+.deluxe-content h3{
   color: var(--main-brown-background);
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 30px;
-  margin-left: 5px;
+  margin-left: 40px;
 }
 .deluxe-img{
-  width: 800px;
+  width: 750px;
+  height: 500px;
+  position: absolute;
+  left: 80%;
+  top: 10%;
+  margin-right: 100px;
 }
-
-#deluxe-extra{
-  margin-left: 5px;
+.deluxe-content button{
+  margin-left: 35px;
 }
 /* end of deluxe styles */
