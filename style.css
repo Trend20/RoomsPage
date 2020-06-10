@@ -4,8 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
-
+body {
+    width: 100vw;
+}
 p {
     font-size: 24px;
 }
@@ -27,6 +30,7 @@ header {
     background-position-y: center;
     background-size: cover;
     height: 100vh;
+    width: 100vw;
 }
 
 nav {
@@ -35,6 +39,7 @@ nav {
     justify-content: space-between;
     background: var(--main-brown-background);
     height: 100px;
+    width: 100vw;
 }
 
 .nav-container {
@@ -78,6 +83,7 @@ nav {
 
 .landing-section {
     height: 90vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: left;
@@ -93,7 +99,7 @@ nav {
     font-family: "Libre Baskerville", serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 89px;
     text-transform: capitalize;
     color: #ffffff;
@@ -105,7 +111,7 @@ nav {
     background: #602c21;
     width: 554px;
     height: 147px;
-    text-align: center;
+    text-align: left;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -120,6 +126,7 @@ nav {
 .minimalist-container {
     display: flex;
     flex-direction: row;
+    width: 100vw;
 }
 
 .minimalist-content {
@@ -560,7 +567,7 @@ h3 {
     height: 80vh;
     width: 100vw;
     padding: 20px;
-    background-color: #EDEDED;
+    background-color: #ededed;
 }
 
 .single-executive-btn {
@@ -580,7 +587,6 @@ h3 {
     text-align: center;
     color: var(--text-white-color);
     background-color: var(--placeholder-text-color);
-
 }
 
 .single-executive-btn .single-executive-btn-text:hover {
@@ -606,12 +612,12 @@ h3 {
     background-color: white;
 }
 
-.single-executive-card .cards .card>img {
+.single-executive-card .cards .card > img {
     width: 100%;
     height: 150px;
 }
 
-.single-executive-card .cards .card>.card-text {
+.single-executive-card .cards .card > .card-text {
     width: 100%;
     background-color: white;
     padding: 20px 0;
@@ -620,37 +626,117 @@ h3 {
     flex-flow: column nowrap;
 }
 
-.single-executive-card .cards .card>.card-text>h3 {
+.single-executive-card .cards .card > .card-text > h3 {
     width: 100%;
     font-size: 24px;
     padding: 0;
     margin: 20px 0;
     margin-top: 0;
-
 }
 
-.single-executive-card .cards .card>.card-text>p {
+.single-executive-card .cards .card > .card-text > p {
     width: 100%;
     padding: 10px;
     font-size: 18px;
     margin: 20px 0;
     margin-top: 0;
-
 }
 
-.single-executive-card .cards .card>.card-text>button {
+.single-executive-card .cards .card > .card-text > button {
     padding: 0;
     margin: 0 auto;
     width: 50%;
     background-color: white;
     border: 1px solid var(--main-brown-background);
     color: var(--main-brown-background);
-
 }
 
-.single-executive-card .cards .card>.card-text>button:hover {
+.single-executive-card .cards .card > .card-text > button:hover {
     background-color: var(--main-brown-background);
     color: white;
 }
 
 /* end of single executive suite */
+
+@media only screen and (max-width: 800px) {
+    p {
+        font-size: 18px;
+    }
+
+    .landing-content {
+        width: 500px;
+        margin-left: 50px;
+    }
+
+    .minimalist-content {
+        width: 497px;
+        height: 525px;
+    }
+
+    .minimalist-image img {
+        width: 525px;
+        height: 350px;
+        left: 20%;
+        top: 900%;
+    }
+
+    .minimalist-image {
+        margin-right: 10px;
+    }
+
+    .minimalist-content p,
+    h1,
+    h3,
+    button {
+        margin-left: 100px;
+        width: 300px;
+    }
+
+    .minimalist-content h1 {
+        margin-top: 200px;
+    }
+
+    .minimalist-content p {
+        color: #333333;
+    }
+
+    .minimalist-content h1 {
+        color: var(--main-brown-background);
+        font-size: 70px;
+    }
+
+    .minimalist-content h3 {
+        color: var(--main-brown-background);
+        font-size: 30px;
+    }
+
+    button {
+        width: 135px;
+        height: 41px;
+        color: var(--text-white-color);
+        background: var(--main-brown-background);
+        outline: none;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    p {
+        font-size: 14px;
+    }
+
+    .landing-content {
+        width: 400px;
+        margin-left: 5px;
+    }
+
+    .detail {
+        width: 554px;
+        height: 120px;
+    }
+
+    #second {
+        width: 350px;
+        height: 120px;
+    }
+}
